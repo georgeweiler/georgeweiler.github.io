@@ -59,10 +59,6 @@ img {
     justify-content: left;
   }
 
-  li {
-   padding: 0 8px;
-  }
-
 .projects {
   margin-bottom: 20px;
 }
@@ -71,10 +67,12 @@ img {
   height: 250px;
   width: 250px;
   float: left;
-/*  margin-top: 5%;
-  margin-bottom: 5%; */
   border: 3px solid grey;
   border-radius: 5px;
+}
+.project-image {
+    width: 150px;
+    height: 220px;
 }
 
 .title {
@@ -87,7 +85,105 @@ img {
 
 .description {
   text-decoration: italic;
-  font-size: 0.8em
+  margin-top: 10px;
+  font-size: 0.8em;
+  z-index: 1;
+}
+
+.title{ 
+   position: relative; 
+}
+.title-text{
+  font-size: 3em;
+  color: white;
+}
+
+#projects {
+    margin: 10px -5px;
+}
+.square-list-item-sm {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+    position: relative;
+    display: table;
+
+}
+.square-list-item .thumbnail,
+.square-list-item-sm .thumbnail {
+    display: block;
+    border: 0;
+    border-radius: 3px;
+    padding: 0;
+    margin: 0px;
+    border: 3px solid rgba(0,0,0,.6);
+}
+.square-list-item-sm .thumbnail {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.square-list-item {
+    height: 229px;
+    position: relative;
+    display: block;
+    display: table;
+    width: 229px;
+    float: none;
+    width: 100%;
+    font-size: 10px;
+    margin: 0 10px 10px 0;
+    margin: 0 0 30px 0;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+.experience-item{
+  margin-left: 15px;
+}
+/*Project Title */
+.square-list-item .thumbnail_name {
+    font-family: arial;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    width: 97%;
+    opacity:0.8;
+    background: #d3d3d3;
+    align-self: center;
+    z-index: 101;
+    overflow: hidden;
+    position: relative;
+}
+.square-list-item:hover .thumbnail_name,
+.square-list-item:active .thumbnail_name {
+    color: #00adf6;
+}
+
+/*positions background image*/
+.thumbnail {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.square-list-item .thumbnailbox > a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.squarelist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
