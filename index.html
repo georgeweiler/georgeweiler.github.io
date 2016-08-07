@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js'></script>
   <div class="col-xs-0 col-sm-1 col-lg-2"></div>
   <div class="col-xs-12 col sm-10 col-md-8 content">
     <h1 id="name">George Weiler</h1>
@@ -41,7 +42,7 @@
             <div class="col-md-9">
             JavaScript
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:90%">
+                <div class="progress-bar" role="progressbar" id="js">
                 </div>
               </div>
             </div>
@@ -50,7 +51,7 @@
             <div class="col-md-9">
             Angular
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:50%">
+                <div class="progress-bar" role="progressbar" id="angular">
                 </div>
               </div>
             </div>
@@ -61,7 +62,7 @@
             <div class="col-md-9">
             Node
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:70%">
+                <div class="progress-bar" role="progressbar" id="node">
                 </div>
               </div>
             </div></div>
@@ -69,7 +70,7 @@
             <div class="col-md-9">
             SQL
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:20%">
+                <div class="progress-bar" role="progressbar" id='sql'>
                 </div>
               </div>
             </div>
@@ -80,7 +81,7 @@
             <div class="col-md-9">
             React & Redux
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:50%">
+                <div class="progress-bar" role="progressbar" id="react">
                 </div>
               </div>
             </div>
@@ -89,7 +90,7 @@
             <div class="col-md-9">
             MongoDB
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:70%">
+                <div class="progress-bar" role="progressbar" id="mongo">
                 </div>
               </div>
             </div>
@@ -100,7 +101,7 @@
             <div class="col-md-9">
             Git
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:70%">
+                <div class="progress-bar" role="progressbar" id="git">
                 </div>
               </div>
             </div>
@@ -109,7 +110,7 @@
             <div class="col-md-9">
             CSS
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:50%">
+                <div class="progress-bar" role="progressbar" id='css'>
                 </div>
               </div>
             </div>
@@ -242,19 +243,20 @@
         <ul class="social-media-list">
           <li id="linkedin">
             <a href="http://linkedin.com/in/george-weiler-22b2669a">
-              <img src="Linkedin_icon.svg" class='social-media'>
+              <img src="" class='social-media' alt="linked_in">
             </a>
           </li>
 
           <li id="github">
             <a href="http://github.com/georgeweiler">
-              <img src="octocat.png" class='social-media'>
+              <img src="octocat.png" class='social-media' alt="github">
             </a>
           </li>
         </ul>
       </div></div> <!-- /connect -->
   </div> <!-- /main content -->
   <div class="col-xs-0 col-sm-1 col-md-2"></div> <!-- Right side bar -->           
+  <script src='app.js'></script>
 </body>
 </html>
 
