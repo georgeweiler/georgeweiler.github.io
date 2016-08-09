@@ -5,11 +5,13 @@
   <title>George Weiler</title>
 <link href="https://cdn.auth0.com/styleguide/4.8.5/index.min.css" rel="stylesheet">
 <link rel="stylesheet" href="index.css">
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js'></script>
-  <div class="col-xs-0 col-sm-1 col-lg-2"></div>
-  <div class="col-xs-12 col sm-10 col-md-8 content">
+<div>
+  <div class="hidden-xs col-sm-1 col-lg-2"></div>
+  <div class="col-sm-10 col-lg-8 content">
     <h1 id="name">George Weiler</h1>
     <div class="tagline">Fullstack Software Engineer</div>
   
@@ -33,131 +35,120 @@
     </div> <!-- /about -->
     <div class="row"><br><br></div>
     <div class="skills row">
-      <div class="col-md-2">
-        <h3> My Skillset </h3>
+      <div class="col-md-3">
+        <h3> My Toolbelt </h3>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-8">
         <div class="row">
-          <div class='col-md-6'>
-            <div class="col-md-9">
-            JavaScript
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id="js">
-                </div>
-              </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Javascript</p>
             </div>
           </div>
-          <div class='col-md-6'>
-            <div class="col-md-9">
-            Angular
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id="angular">
-                </div>
-              </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Node</p>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Git</p>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class='col-md-6'>
-            <div class="col-md-9">
-            Node
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id="node">
-                </div>
-              </div>
-            </div></div>
-           <div class='col-md-6'>
-            <div class="col-md-9">
-            SQL
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id='sql'>
-                </div>
-              </div>
+         <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>React</p>
+            </div>
+          </div> 
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Mocha</p>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Redux</p>
+            </div>
+          </div>   
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Angular</p>
+            </div>
+          </div>
+         <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>CSS</p>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>D3</p>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class='col-md-6'>
-            <div class="col-md-9">
-            React & Redux
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id="react">
-                </div>
-              </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Bootstrap</p>
             </div>
           </div>
-           <div class='col-md-6'>
-            <div class="col-md-9">
-            MongoDB
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id="mongo">
-                </div>
-              </div>
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>ES6</p>
+            </div>
+          </div>  
+          <div class="col-xs-6 col-sm-4" >
+            <div class ='skill'>
+            <p class='skill-name'>Mongo</p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class='col-md-6'>
-            <div class="col-md-9">
-            Git
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id="git">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class='col-md-6'>
-            <div class="col-md-9">
-            CSS
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" id='css'>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
+      </div>
     </div> <!-- /skills -->
-  
-    <div class="Experience row">
-      <div class="col-md-2">
-        <h3>Experience</h3>
+  <div class="row"><br><br></div>
+  <div class="Experience row">
+    <div class="col-md-2"> 
+      <h3>Experience</h3>
+    </div>
+    <div class="col-md-10">
+      <div class="well row experience-item">
+        <div class="col-md-2">
+         <img src="google.png" alt="google" class="job-logo">
+        </div>
+        <div class="col-md-10">
+          <h4>Google, Boys & Girls Club</h4>
+          <p> A collaboration position between Google, AmeriCorps VISA and Boys & Girls Club where I oversaw a youth computer science education program called CS First.
+          </p>
+        </div>
       </div>
-      <div class="col-md-10">
-        
-        <div class="well row experience-item">
-          <div class="col-md-2">
-            LOGO HERE
-          </div>
-          <div class="col-md-10">
-            <h4>Google, Boys & Girls Club</h4>
-            <p> A collaboration position between Google, AmeriCorps VISA and Boys & Girls Club where I oversaw a youth computer science education program called CS First.</p>
-          </div>
+      <div class="well row experience-item">
+        <div class="col-md-2">
+          <img src="mks.png" alt="makersquare" class="job-logo">
         </div>
-
-        <div class="well row experience-item">
-          <div class="col-md-2">
-            LOGO HERE
-          </div>
-          <div class="col-md-10">
-            <h4>Google, Boys & Girls Club</h4>
-            <p> A collaboration position between Google, AmeriCorps VISA and Boys & Girls Club where I oversaw a youth computer science education program called CS First.</p>
-          </div>
+        <div class="col-md-10">
+          <h4>Makersquare</h4>
+          <p> An intense full-stack immersive that teaches software engineering paradigms and engineering workflow.
+          </p>
         </div>
-
-        <div class="well row experience-item">
-          <div class="col-md-2">
-            LOGO HERE
-          </div>
-          <div class="col-md-10">
-            <h4>Google, Boys & Girls Club</h4>
-            <p> A collaboration position between Google, AmeriCorps VISA and Boys & Girls Club where I oversaw a youth computer science education program called CS First.</p>
-          </div>
+      </div>
+      <div class="well row experience-item">
+        <div class="col-md-2">
+          <img src="IPA_logo.png" alt="IPA" class="job-logo">
         </div>
-
-    </div> <!-- /experience -->
-
-    <div class="Projects row experience-item">
+        <div class="col-md-10">
+          <h4>Institute for Public Administration</h4>
+          <p> A policy research organization tasked with imporving broadband internet access across Delaware as part of a federal broadband proejct. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /experience -->
+  <div class="row"><br><br></div>
+  <div class="Projects row experience-item">
       <div class="col-md-2">
         <h3>Projects</h3>
       </div>
@@ -210,7 +201,7 @@
           <li class="col-sm-4 col-xs-6">
             <div class="square-list-item">
               <div class="thumbnailbox">
-                <a href="#" class="thumbnail" style="background-image:url('.png')"></a>
+                <a href="#" class="thumbnail" style="background-image:url('#')"></a>
               </div>
               <h4 class="thumbnail_name">
                 Find your Members of Congress
@@ -230,33 +221,31 @@
           </li>
         </ul>
       </div> <!-- /col10 -->
-    </div> <!--/Projects -->
-    
-    <div class="row"><br></div> <!-- NEED TO REMOVE -->
-    
-    <div class="connect row">
-      <div class="col-xs-2">
-        <h3>Get in Touch</h3>
-      </div>
+  </div> <!--/Projects -->
+  <div class="row"><br><br></div>
+  <div class="connect row">
+    <div class="col-xs-2">
+      <h3>Get in Touch</h3>
+    </div>
+    <div class="col-xs-10">
+      <ul class="social-media-list">
+        <li id="linkedin">
+          <a href="http://linkedin.com/in/george-weiler-22b2669a">
+            <img src="" class='social-media' alt="linked_in">
+          </a>
+        </li>
 
-      <div class="col-xs-10">
-        <ul class="social-media-list">
-          <li id="linkedin">
-            <a href="http://linkedin.com/in/george-weiler-22b2669a">
-              <img src="" class='social-media' alt="linked_in">
-            </a>
-          </li>
-
-          <li id="github">
-            <a href="http://github.com/georgeweiler">
-              <img src="octocat.png" class='social-media' alt="github">
-            </a>
-          </li>
-        </ul>
-      </div></div> <!-- /connect -->
-  </div> <!-- /main content -->
-  <div class="col-xs-0 col-sm-1 col-md-2"></div> <!-- Right side bar -->           
-  <script src='app.js'></script>
+        <li id="github">
+          <a href="http://github.com/georgeweiler">
+            <img src="octocat.png" class='social-media' alt="github">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div> <!-- /connect -->
+</div> <!-- /main content -->
+<div class="hidden-xs col-sm-1 col-lg-2"></div><!-- Right side bar -->           
+<script src='app.js'></script>
 </body>
 </html>
 
