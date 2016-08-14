@@ -204,5 +204,11 @@ img {
 .section{
   margin-top: 30px;
 }
+.progress-bar{
+  background: rgba(58, 98, 133, 1) !important;
+}
+a:hover,a:visited { 
+  color:#000; 
+}
 
 
